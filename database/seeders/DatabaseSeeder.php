@@ -17,6 +17,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             AdminSeeder::class,
             DataSeeder::class,
+            UserSeeder::class,
         ]);
     }
 }
