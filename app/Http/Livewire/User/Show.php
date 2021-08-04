@@ -10,6 +10,8 @@ class Show extends Component
 {
     use WithPagination;
 
+    protected $paginationTheme = 'bootstrap';
+
     public function getUserProperty()
     {
         return User::where('role', 'USER')->orderBy('id', 'ASC')->paginate(10);

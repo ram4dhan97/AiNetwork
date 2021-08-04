@@ -43,6 +43,9 @@
                     </tbody>
                 </table>
 
+                <div class="mx-4 my-2">
+                {{ $this->user->links() }}
+                </div>
             </div>
         </div>
     </div>
